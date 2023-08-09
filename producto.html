@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Producto</title>
+</head>
+<body class="bg-primary-subtle">
+  <h1 class="titulo">Ingreso de productos</h1>
+    <div class="container formulario">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-12">
+          <label for="validationCustom01" class="form-label">Codigo:</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Excelente!
+          </div>
+          <div class="invalid-feedback">
+            Por favor escriba un codigo
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustom02" class="form-label">Descripcion:</label>
+          <input type="text" class="form-control" id="validationCustom02" required>
+          <div class="valid-feedback">
+            Excelente!
+          </div>
+          <div class="invalid-feedback">
+            Por favor escriba la descripcion del producto
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Codigo de Barra:</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">#</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Por favor escriba un codigo de barra
+            </div>
+            <div class="valid-feedback">
+              Excelente!
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Precio Unitario:</label>
+          <div class="input-group has-validation">
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Por favor escriba el precio unitario
+            </div>
+            <div class="valid-feedback">
+              Excelente!
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Stock:</label>
+          <div class="input-group has-validation">
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Por favor escriba la cantidad stock
+            </div>
+            <div class="valid-feedback">
+              Excelente!
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Proveedor:</label>
+          <div class="input-group has-validation">
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Por favor escriba el nombre del proveedor
+            </div>
+            <div class="valid-feedback">
+              Excelente!
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Activo
+            </label>
+            <div class="invalid-feedback">
+              Seleccione activo por favor
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Categoria:</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Escoje la categoria...</option>
+            <option>Categoria 1</option>
+            <option>Categoria 2</option>
+            <option>Categoria 3</option>
+            <option>Categoria 4</option>
+          </select>
+          <div class="invalid-feedback">
+            Escojer una categoria
+          </div>
+        </div>
+        <div class="col-12 botones">
+          <button class="btn btn-primary" type="submit">Guardar</button>
+          <button class="btn btn-primary" type="reset">Cancelar</button>
+        </div>
+      </form>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="assets/JS/form.js"></script>
+</body>
+</html>

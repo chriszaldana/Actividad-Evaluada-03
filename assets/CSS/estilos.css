@@ -1,0 +1,18 @@
+body{
+    background-color: #e9a385;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formulario{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
